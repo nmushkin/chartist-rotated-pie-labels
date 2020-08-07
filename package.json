@@ -1,7 +1,7 @@
 {
   "name": "chartist-rotated-pie-labels",
   "description": "Rotated Pie Chart Labels Plugin for Chartist.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Noah Mushkin",
   "homepage": "https://github.com/nmushkin/chartist-rotated-pie-labels",
   "repository": {
