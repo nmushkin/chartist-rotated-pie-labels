@@ -1,38 +1,38 @@
 {
-    "name": "chartist-rotated-pie-labels",
-    "description": "Rotated Pie Chart Labels Plugin for Chartist.js",
-    "version": "0.0.1",
-    "author": "Noah Mushkin",
-    "homepage": "https://github.com/nmushkin/chartist-rotated-pie-labels",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nmushkin/chartist-rotated-pie-labels"
-    },
-    "keywords": [
-      "chartist",
-      "plugin",
-      "pie",
-      "rotated",
-      "labels"
-    ],
-    "files": [
-      "dist",
-      "LICENSE",
-      "package.json",
-      "README.md"
-    ],
-    "main": "dist/chartist-rotated-pie-labels.js",
-    "browser": "dist/chartist-rotated-pie-labels.js",
-    "licenses": [
-        {
-            "name": "Apache-2.0",
-            "url": "https://opensource.org/licenses/Apache-2.0"
-        }
-    ],
-    "dependencies": {},
-    "config": {
-      "banner": "/* chartist-rotated-pie-labels <%= pkg.version %>\n * Copyright © <%= year %> Noah Mushkin\n * Free to use under the Apache-2.0 license.\n * https://opensource.org/licenses/Apache-2.0\n */\n",
-      "src": "src",
-      "dist": "dist"
+  "name": "chartist-rotated-pie-labels",
+  "description": "Rotated Pie Chart Labels Plugin for Chartist.js",
+  "version": "0.0.2",
+  "author": "Noah Mushkin",
+  "homepage": "https://github.com/nmushkin/chartist-rotated-pie-labels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmushkin/chartist-rotated-pie-labels"
+  },
+  "keywords": [
+    "chartist",
+    "plugin",
+    "pie",
+    "rotated",
+    "labels"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "main": "dist/chartist-rotated-pie-labels.js",
+  "browser": "dist/chartist-rotated-pie-labels.js",
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "url": "https://opensource.org/licenses/Apache-2.0"
     }
+  ],
+  "dependencies": {},
+  "config": {
+    "banner": "/* chartist-rotated-pie-labels <%= pkg.version %>\n * Copyright © <%= year %> Noah Mushkin\n * Free to use under the Apache-2.0 license.\n * https://opensource.org/licenses/Apache-2.0\n */\n",
+    "src": "src",
+    "dist": "dist"
   }
+}
