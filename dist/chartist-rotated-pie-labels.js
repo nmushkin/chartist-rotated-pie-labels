@@ -20,7 +20,7 @@
    * 
    */
   /* global Chartist */
-  (function(globalThis, document, Chartist) {
+  (function(window, document, Chartist) {
       'use strict';
 
       var defaultOptions = {
@@ -70,7 +70,7 @@
         }
       }
     
-    }(globalThis, document, Chartist));
+    }(window, document, Chartist));
 
     return Chartist.plugins.ctRotatedPieLabels
 
