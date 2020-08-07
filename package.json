@@ -23,13 +23,10 @@
   ],
   "main": "dist/chartist-rotated-pie-labels.js",
   "browser": "dist/chartist-rotated-pie-labels.js",
-  "licenses": [
-    {
-      "name": "Apache-2.0",
-      "url": "https://opensource.org/licenses/Apache-2.0"
-    }
-  ],
-  "dependencies": {},
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chartist": "~0.11.4"
+  },
   "config": {
     "banner": "/* chartist-rotated-pie-labels <%= pkg.version %>\n * Copyright © <%= year %> Noah Mushkin\n * Free to use under the Apache-2.0 license.\n * https://opensource.org/licenses/Apache-2.0\n */\n",
     "src": "src",

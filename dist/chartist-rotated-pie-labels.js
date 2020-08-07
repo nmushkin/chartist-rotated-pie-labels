@@ -10,7 +10,7 @@
     // like Node.
     module.exports = factory(require("chartist"));
   } else {
-    root['Chartist.plugins.ctPointLabels'] = factory(Chartist);
+    root['Chartist.plugins.ctRotatedPieLabels'] = factory(Chartist);
   }
 }(this, function (Chartist) {
   /**
@@ -20,7 +20,7 @@
    * 
    */
   /* global Chartist */
-  (function(window, document, Chartist) {
+  (function(globalThis, document, Chartist) {
       'use strict';
 
       var defaultOptions = {
@@ -70,7 +70,7 @@
         }
       }
     
-    }(window, document, Chartist));
+    }(globalThis, document, Chartist));
 
     return Chartist.plugins.ctRotatedPieLabels
 
