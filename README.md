@@ -1,6 +1,7 @@
 # Rotated Pie Labels For Chartist.js
 
 #### This plugin allows you to create automatically rotated labels for slices of chartist.js pie charts 
+#### If something is broken, please send a PR!  I don't have a great understanding of node environments, etc and would love the help.  Thanks
 
 ## Example Usage:
 
