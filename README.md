@@ -12,7 +12,12 @@ new Chartist.Pie('#pie-chart', {
   {
     donut: true,
     showLabel: true,
-    plugins: [Chartist.plugins.ctRotatedPieLabels({})]
+    plugins: [
+      Chartist.plugins.ctRotatedPieLabels({
+        labelTranslate: .95,
+        outerAnchor: true
+        })
+    ]
   });
 ```
 
